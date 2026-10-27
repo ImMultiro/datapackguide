@@ -13,14 +13,32 @@
 
 <body>
 
-  {% if site.wip %}
-  <p id="wip-notice">This Site Is A <strong>Work In Progress</strong>. Some portions may be incomplete.</p>
-  {% endif %}
+  <nav>
+    <ul>
+      {% for chapter in site.pages %}
+      <li>
+        {% if chapter.title == page.title %}
+          {{ chapter.title }}
+        {% else %}
+          <a href="{{ chapter.url }}">{{ chapter.title }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
 
-  <h1>{{ site.title }}</h1>
-  <h2>{{ page.title }}</h2>
+  <div id="main">
+  
+    {% if site.wip %}
+    <p id="wip-notice">This Site Is A <strong>Work In Progress</strong>. Some portions may be incomplete.</p>
+    {% endif %}
 
-  {{ page.content }}
+    <h1>{{ site.title }}</h1>
+    <h2>{{ page.title }}</h2>
+
+    {{ page.content }}
+  
+  </div>
   
 </body>
   

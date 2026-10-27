@@ -7,6 +7,16 @@
   font-style: normal;
 }
 
+body {
+  display: flex;
+  height: 100vh;
+}
+
+nav {
+  max-width: 25%;
+  height: 100%;
+}
+
 #wip-notice {
   background-color: #ffff00;
   width: max-content;
