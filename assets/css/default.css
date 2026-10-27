@@ -9,4 +9,6 @@
 
 #wip-notice {
   background-color: #ffff00;
+  width: max-content;
+  padding: 0.5em;
 }
