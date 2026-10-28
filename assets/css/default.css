@@ -29,6 +29,11 @@ nav > ul {
   list-style-type: none;
 }
 
+nav a {
+  text-decoration-line: none;
+  color: inherit;
+}
+
 #main {
   background-color: #afbedd;
   color: #525968;
