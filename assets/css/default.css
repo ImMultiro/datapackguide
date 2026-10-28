@@ -5,7 +5,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  color: black;
 }
 
 body {
@@ -21,7 +21,6 @@ nav {
   width: 25%;
   height: 100%;
   background-color: #f29b60;
-  color: #ddc1af;
   padding: 1em;
 }
 
@@ -39,8 +38,7 @@ nav a {
 }
 
 #main {
-  background-color: #ddc1af;
-  color: #f29b60;
+  background-color: #dbdbdb;
   padding: 1em;
   flex: 1;
 }
