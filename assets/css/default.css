@@ -30,6 +30,7 @@ nav > ul {
   background-color: #afbedd;
   color: #525968;
   padding: 1em;
+  flex: 1;
 }
 
 #wip-notice {
