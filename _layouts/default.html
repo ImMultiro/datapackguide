@@ -20,7 +20,7 @@
         {% if chapter.title == page.title %}
           {{ chapter.title }}
         {% else %}
-          <a href="{{ chapter.url }}">{{ chapter.title }}</a>
+          <a href="/datapackguide{{ chapter.url }}">{{ chapter.title }}</a>
         {% endif %}
       </li>
       {% endfor %}
