@@ -18,7 +18,8 @@ body {
 }
 
 nav {
-  width: 25%;
+  width: max-content;
+  max-width: 15%;
   height: 100%;
   background-color: #f29b60;
   padding: 1em;
