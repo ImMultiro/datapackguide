@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Landing
+noindex: true
 ---
 
 So, you want to make Minecraft data packs, huh? Well, you've come to the right place. This guide will walk you through the very basics of data pack creation, so you can go from not knowing what a data pack is 

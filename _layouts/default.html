@@ -19,13 +19,15 @@
     </a>
     <ul>
       {% for chapter in site.pages %}
-      <li>
-        {% if chapter.title == page.title %}
-          -> <b>{{ chapter.title }}</b>
-        {% else %}
-          <a href="/datapackguide{{ chapter.url }}">{{ chapter.title }}</a>
-        {% endif %}
-      </li>
+        {% unless chapter.noindex %}
+        <li>
+          {% if chapter.title == page.title %}
+            -> <b>{{ chapter.title }}</b>
+          {% else %}
+            <a href="/datapackguide{{ chapter.url }}">{{ chapter.title }}</a>
+         {% endif %}
+        </li>
+        {% endunless %}
       {% endfor %}
     </ul>
   </nav>
