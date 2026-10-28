@@ -20,8 +20,8 @@ body {
 nav {
   width: 25%;
   height: 100%;
-  background-color: #525968;
-  color: #afbedd;
+  background-color: #f29b60;
+  color: #ddc1af;
   padding: 1em;
 }
 
@@ -39,8 +39,8 @@ nav a {
 }
 
 #main {
-  background-color: #afbedd;
-  color: #525968;
+  background-color: #ddc1af;
+  color: #f29b60;
   padding: 1em;
   flex: 1;
 }
